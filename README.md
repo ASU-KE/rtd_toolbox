@@ -1,2 +1,2 @@
 # rtd_toolbox
-Provides functionality that will be used by 99% of research sites.
+Provides functionality that will be used by most of the ASU research sites.

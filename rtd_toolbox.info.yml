@@ -1,0 +1,5 @@
+name: RTD Toolbox
+type: module
+description: Provides functionality that will be used by most of the ASU research sites.
+core: 8.x
+package: RTD

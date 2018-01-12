@@ -1,0 +1,5 @@
+name: RTD Dev Tools
+type: module
+description: Tools for developers.
+core: 8.x
+package: RTD
