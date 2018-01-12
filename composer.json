@@ -1,0 +1,15 @@
+{
+  "name": "asu/rtd_toolbox",
+  "type": "drupal-module",
+  "description": "Provides functionality that will be used by most of the ASU research sites.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/ASU-OKED-WEB-DEV/rtd_toolbox",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/ASU-OKED-WEB-DEV/rtd_toolbox/issues",
+    "source": "https://github.com/ASU-OKED-WEB-DEV/rtd_toolbox"
+  },
+  "require": {
+  }
+}
