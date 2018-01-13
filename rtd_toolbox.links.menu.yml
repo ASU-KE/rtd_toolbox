@@ -1,0 +1,7 @@
+rtd_toolbox.admin_index:
+  title: 'RTD'
+  parent: system.admin_config
+  route_name: rtd_toolbox.admin_index
+  description: 'RTD settings.'
+  position: left
+  weight: -25

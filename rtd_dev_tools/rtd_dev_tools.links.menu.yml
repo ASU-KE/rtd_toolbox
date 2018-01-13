@@ -1,0 +1,6 @@
+rtd_dev_tools.settings:
+  title: 'RTD Dev Tools'
+  parent: rtd_toolbox.admin_index
+  route_name: rtd_dev_tools.settings
+  description: 'Configuration for developer tools.'
+  weight: 10

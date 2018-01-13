@@ -1,0 +1,7 @@
+rtd_toolbox.admin_index:
+  path: '/admin/config/rtd'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'RTD settings'
+  requirements:
+    _permission: 'access administration pages'
