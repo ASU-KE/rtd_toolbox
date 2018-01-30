@@ -1,0 +1,6 @@
+file_type_icons:
+  version: VERSION
+  js:
+    js/file-type-icons.js : {}
+  dependencies:
+    - core/jquery

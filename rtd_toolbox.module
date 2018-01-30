@@ -5,3 +5,17 @@
  * Contains rtd_toolbox.module.
  */
 
+/**
+ * Implements hook_entity_type_alter().
+ */
+function rtd_toolbox_node_view_alter(array &$build, Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display) {
+    $config = \Drupal::config('rtd_toolbox.settings');
+    $is_icons_on = $config->get('file_type_icons');
+
+
+    if ($is_icons_on) {
+        //Add library
+        $build['#attached']['library'][] = 'rtd_toolbox/file_type_icons';
+
+    }
+}

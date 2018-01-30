@@ -5,3 +5,10 @@ rtd_toolbox.admin_index:
   description: 'RTD settings.'
   position: left
   weight: -25
+rtd_toolbox.rtd_toolbox_settings:
+  title: 'Toolbox settings'
+  route_name: rtd_toolbox.rtd_toolbox_settings
+  description: 'Allows developers to configure site.'
+  parent: rtd_toolbox.admin_index
+  weight: 99
+
